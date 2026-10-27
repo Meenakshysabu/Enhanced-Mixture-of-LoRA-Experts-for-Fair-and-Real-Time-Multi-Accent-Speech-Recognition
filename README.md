@@ -57,18 +57,33 @@ The project builds on Whisper Small and uses Low-Rank Adaptation (LoRA) for para
 
 ```text
 MAS-LoRA-Plus-Plus/
-├── configs/
-├── data/
-├── preprocessing/
-├── models/
-├── training/
-├── evaluation/
-├── demo/
-├── results/
-├── notebooks/
+│
+├── README.md
 ├── requirements.txt
-├── .gitignore
-└── README.md
+├── install_mfa.py
+│
+├── preprocessing/
+│   ├── new_tsv.py
+│   ├── phoneme.py
+│   ├── preprocess.py
+│   ├── processed_augmented.py
+│   ├── processed_cleaned.py
+│   ├── textgrid_to_pt.py
+│   └── txt_creation.py
+│
+├── models/
+│   ├── __init__.py
+│   ├── dataset.py
+│   ├── dataset_whisper.py
+│   ├── maslora_model.py
+│   └── maslora_whisper.py
+│
+├── training/
+│   └── train_maslora_whisper.py
+│
+└── evaluation/
+    ├── accent_identifier.py
+    └── evaluate_wer_comparison.py
 ```
 
 
