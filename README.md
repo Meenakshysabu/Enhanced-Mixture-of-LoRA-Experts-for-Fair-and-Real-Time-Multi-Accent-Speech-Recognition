@@ -71,7 +71,6 @@ MAS-LoRA-Plus-Plus/
 └── README.md
 ```
 
-*Update the structure to match the files and folders in your repository.*
 
 ## 📊 Dataset
 
