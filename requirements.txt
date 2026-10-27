@@ -1,0 +1,16 @@
+torch
+torchaudio
+transformers
+numpy
+pandas
+librosa
+soundfile
+noisereduce
+pydub
+jiwer
+PyYAML
+tqdm
+tensorboard
+phonemizer
+praat-textgrids
+gradio
